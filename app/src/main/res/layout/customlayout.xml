@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detail1"
+                android:text="Visitor Name"
+                android:layout_column="0">
+            </TextView>
+
+            <TextView
+
+                android:id="@+id/VisitorName"
+                android:layout_column="1">
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detail2"
+                android:text="Visitor Company"
+                android:layout_column="0">
+            </TextView>
+
+            <TextView
+
+                android:id="@+id/VisitorComapany"
+                android:layout_column="1">
+            </TextView>
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detail3"
+                android:text="Time in"
+                android:layout_column="0">
+            </TextView>
+
+            <TextView
+
+                android:id="@+id/TimeIn"
+                android:layout_column="1">
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detail4"
+                android:text="Time Out"
+                android:layout_column="0">
+            </TextView>
+
+            <TextView
+
+                android:id="@+id/TimeOut"
+                android:layout_column="1">
+            </TextView>
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detail5"
+                android:text="To see"
+                android:layout_column="0">
+            </TextView>
+
+            <TextView
+
+                android:id="@+id/PersonSee"
+                android:layout_column="1">
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/Edit"
+                android:text="EditButton"
+                android:layout_column="0">
+            </Button>
+
+            <Button
+                android:text="TimeOut"
+                android:id="@+id/TimeOutButton"
+                android:layout_column="1">
+            </Button>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>
